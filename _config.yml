@@ -3,21 +3,19 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+first_name: Hendrik
+middle_name: 
+last_name: Schwanekamp
+email: hendrikschwanekamp@gmail.com
+description: Hendrik Schwanekamp's Website
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  <button id="changeCookiePreferences">Cookie Preference</button>
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: /impressum # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -35,14 +33,14 @@ max_width: 800px
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: hschwane # your GitHub user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
@@ -56,18 +54,17 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: 
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-189735631-1 # your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: kitchenTetris # your blog must have a name for it to show up in the nav bar
+blog_description: Eventually I will write here about programming, cooking and my other interests.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -75,7 +72,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: hschwane # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -100,7 +97,7 @@ news_limit: 5
 # Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme: fruity  # https://github.com/jwarby/jekyll-pygments-themes
 kramdown:
   input: GFM
   syntax_highlighter_opts:
@@ -161,11 +158,11 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false
+enable_google_analytics:    true
 enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
-enable_tooltips:            false
+enable_tooltips:            true
 enable_darkmode:            true
 show_social_icons:          false
 

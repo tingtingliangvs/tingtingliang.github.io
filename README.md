@@ -20,7 +20,7 @@ Academics around the world use this theme for their homepages, blogs, lab pages,
 Check out the community webpages below.
 Feel free to add your own page(s) by sending a PR.
 
-<table>
+<table> 
 <tr>
 <td>Academics</td>
 <td>
