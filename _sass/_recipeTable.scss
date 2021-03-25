@@ -1,0 +1,14 @@
+table.recipe {
+  border: 1px solid var(--global-theme-color);
+}
+
+table.recipe td, table.recipe th {
+  border-right: 1px solid var(--global-theme-color);
+  border-collapse: collapse;
+  padding: 2px 15px;
+  text-align: left;
+}
+
+table.recipe tr.divider {
+  border-bottom: 1px solid var(--global-theme-color);
+}
