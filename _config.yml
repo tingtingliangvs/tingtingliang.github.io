@@ -63,8 +63,8 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: kitchenTetris # your blog must have a name for it to show up in the nav bar
-blog_description: Eventually I will write here about programming, cooking and my other interests.
+blog_name: kitchen<wbr>Tetris # your blog must have a name for it to show up in the nav bar
+blog_description: Here I write articles about programming, cooking and my other interests.
 permalink: /blog/:year/:title/
 
 # Pagination
