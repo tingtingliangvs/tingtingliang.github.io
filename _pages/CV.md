@@ -23,7 +23,7 @@ nav: true
     </div>
     <div class="col-10">
         <b>M.Sc Computational Visualistics</b>, University of Koblenz<br>
-        Thesis: <i>Performance analysis and optimization of highly diverging algorithms on GPUs</i>
+        Thesis: <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/2161"><i>Performance analysis and optimization of highly diverging algorithms on GPUs</i></a>
     </div>
 </div>
 
@@ -34,7 +34,7 @@ nav: true
     </div>
     <div class="col-10">
         <b>B.Sc. Computational Visualistics</b>, University of Koblenz<br>
-        Thesis: <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/year/2018/docId/1638"><i>Simulating star formation</i></a> (<a href="/projects/GraSPH/">GraSPH</a>)
+        Thesis: <a href="https://kola.opus.hbz-nrw.de/frontdoor/index/index/docId/1638"><i>Simulating star formation</i></a> (<a href="/projects/GraSPH/">GraSPH</a>)
     </div>
 </div>
 
