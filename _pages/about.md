@@ -32,8 +32,8 @@ Send me an email if you are interested. I also like to teach, give talks,
 and provide private [tutoring](tutoring) in programming and computer science. 
 
 Before studying Computational Visualistics I worked in video production, 
-where I have accuired some skills in `graphics design`,` photograpy` and` videography`. 
+where I have acquired some skills in `graphics design`,` photograpy` and` videography`. 
 I am happy to offer those alongside my programming work.
 
 Other interests of mine are` cooking`,` electronics`,` photography`,` reading`,` writing`,` games`,` art` 
-and` sailing`. YOu can check out the [blog](blog), where you can learn more about these.  
+and` sailing`. You can check out the [blog](blog), where you can learn more about these.  

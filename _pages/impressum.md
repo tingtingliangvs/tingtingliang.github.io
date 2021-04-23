@@ -8,10 +8,9 @@ nav: false
 
 ## contact
 Hendrik Schwanekamp\
-Klever Straße 34a\
-46569 Hünxe
-
-email: [{{ site.email }}](mailto:{{ site.email }})\
+Statthalterhofallee 37\
+50858 Köln\
+email: [{{ site.email | html_encode_email }}](mailto:{{ site.email | encode_email }})\
 phone: +49 157 7649 2810
 
 ---
