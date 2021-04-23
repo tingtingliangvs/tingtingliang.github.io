@@ -42,9 +42,9 @@ force_white: true
     </div>
 </div>
 
+
 <div style="height:15pt"></div>
 ## Professional Experience
-
 
 <div class="row">
     <div class="col-3 col-sm-2 date">
@@ -125,6 +125,17 @@ force_white: true
 
 <div style="height:15pt"></div>
 ## Publications and Talks
+
+<div class="row">
+    <div class="col-2 col-sm-1 date">
+        2021
+    </div>
+    <div class="col-10 col-sm-11">
+        <a href="https://gtc21.event.nvidia.com/media/Accelerating%20Ray%20Tracing%20for%20the%20IceCube%20Neutrino%20Observatory%20with%20CUDA%20%5BS32113%5D/1_nmy716qt"><b>Accelerating Ray Tracing for the IceCube Neutrino Observatory with CUDA</b></a><br>
+        Benedikt Riedel, Hendrik Schwanekamp, Ramona Hohl <br>
+        <a href="https://www.nvidia.com/en-us/gtc/">GTC 2021</a>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-2 col-sm-1 date">
