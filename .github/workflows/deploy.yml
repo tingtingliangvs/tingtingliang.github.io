@@ -58,6 +58,12 @@ jobs:
         htmlFile: ./cv-full.html
         outputFile: ./assets/pdf/cv-schwanekamp.pdf
         pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "20mm", "right": "20mm", "bottom": "10mm"}}'
+    - name: HTML to PDF 2
+      uses: fifsky/html-to-pdf-action@v0.0.2
+      with:
+        htmlFile: ./cv-full-de.html
+        outputFile: ./assets/pdf/cv-schwanekamp-de.pdf
+        pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "20mm", "right": "20mm", "bottom": "10mm"}}'
     - name: Git Auto Commit
       uses: stefanzweifel/git-auto-commit-action@v4.9.1
       with:
