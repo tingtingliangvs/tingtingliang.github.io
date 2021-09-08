@@ -162,7 +162,7 @@ force_white: true
     </div>
 </div>
 
-<div> &nbsp; <br> </div>
+<div> &nbsp; <br> &nbsp; <br> &nbsp; <br> &nbsp; <br> </div>
 
 <div style="height:15pt"></div>
 ## Stipendien und Auszeichnungen
