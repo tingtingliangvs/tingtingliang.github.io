@@ -36,4 +36,4 @@ where I have acquired some skills in `graphics design`,` photograpy` and` videog
 I am happy to offer those alongside my programming work.
 
 Other interests of mine are` cooking`,` electronics`,` photography`,` reading`,` writing`,` games`,` art` 
-and` sailing`. You can check out the [blog](blog), where you can learn more about these.  
+and. You can check out the [blog](blog), where you can learn more about these.  
