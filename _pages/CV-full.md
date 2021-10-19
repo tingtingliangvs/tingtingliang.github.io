@@ -226,6 +226,6 @@ A python based visualization tool for particle and point cloud datasets. All set
 <div style="height:15pt"></div>
 ## Hobbies and Interests
 
-Cooking, electronics, photography, reading, writing, games, art and sailing.
+Cooking, electronics, photography, reading, writing, games, art.
 
 
