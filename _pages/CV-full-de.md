@@ -128,7 +128,29 @@ force_white: true
 </div>
 
 <div style="height:15pt"></div>
-## Vorträge
+## Vorträge, Publikationen und Lehre
+
+<div class="row">
+    <div class="col-2 col-sm-1 date">
+        2022
+    </div>
+    <div class="col-10 col-sm-11">
+        <a href="https://link.springer.com/article/10.1007/s41781-022-00080-8"><b>Accelerating IceCube’s Photon Propagation Code with CUDA</b></a><br>
+        Hendrik Schwanekamp, Ramona Hohl, et al. <br>
+        <a href="https://www.springer.com/journal/41781">Computing and Software for big science</a>, Volume 6
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-2 col-sm-1 date">
+        2021 / 2022
+    </div>
+    <div class="col-10 col-sm-11">
+        <a href="https://www.uni-koblenz-landau.de/de/koblenz/fb4/icv/agmueller/lehre/ws2022/wivisi"><b>Wissenschaftliche Visualisierung und Simulation</b></a><br>
+        Ringvorlesung an der Universität Koblenz.<br>
+        Organisation der Veranstaltung, halten von zwei Vorlesungen zu GPU-Programmierung.
+    </div>
+</div>
 
 <div class="row">
     <div class="col-2 col-sm-1 date">
@@ -216,9 +238,9 @@ Das erlaubt jedem, der Python zur Datenanalyse nutzt, seine Datensätze interakt
     <div class="col-md-8">
         <div style="height:15pt"></div>
         <h2>Technologien</h2>
-        <b>Programmierung:</b> C/C++, CUDA, OpenGL, C#, Python<br>
-        <b>außerdem:</b>Typescript, Javascript, HTML/CSS, BASH, R, Lua<br>  
-        <b>Software:</b> Git, LaTeX, Photoshop, Premiere, After Effects<br>
+        <b>Programmierung:</b> C/C++, OpenGL, CUDA, TypeScript, WebGL, C#<br>
+        <b>außerdem:</b> JavaScript, HTML/CSS, Rust, BASH, Python<br>  
+        <b>Software:</b> LaTeX, Photoshop, Premiere, After Effects, Office tools<br>
         <b>Betriebssysteme:</b> GNU/Linux, Windows<br>    
     </div>
     <div class="col-md-4">
@@ -233,6 +255,6 @@ Das erlaubt jedem, der Python zur Datenanalyse nutzt, seine Datensätze interakt
 <div style="height:15pt"></div>
 ## Hobbies und Interessen
 
-Kochen, Elektrotechnik, Fotografie, Schreiben, Kunst und Segeln.
+Kochen, Elektrotechnik, Fotografie, Handwerk, Spiele, Kunst und Segeln.
 
 

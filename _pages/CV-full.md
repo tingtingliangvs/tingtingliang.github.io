@@ -102,7 +102,7 @@ force_white: true
     </div>
     <div class="col-9 col-sm-10">
         <b>Redstone Entertainment</b><br> 
-        <i>Founding member.</i><br>
+        <i>Co Founder.</i><br>
         Producing commercials and image films for local businesses. Creating doumentaries on behalf of the local goverment. 
         Making short movies for competetions and festivals. 
     </div>
@@ -125,6 +125,28 @@ force_white: true
 
 <div style="height:15pt"></div>
 ## Publications and Talks
+
+<div class="row">
+    <div class="col-2 col-sm-1 date">
+        2022
+    </div>
+    <div class="col-10 col-sm-11">
+        <a href="https://link.springer.com/article/10.1007/s41781-022-00080-8"><b>Accelerating IceCube’s Photon Propagation Code with CUDA</b></a><br>
+        Hendrik Schwanekamp, Ramona Hohl, et al. <br>
+        <a href="https://www.springer.com/journal/41781">Computing and Software for big science</a>, Volume 6
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-2 col-sm-1 date">
+        2021 / 2022
+    </div>
+    <div class="col-10 col-sm-11">
+        <a href="https://www.uni-koblenz-landau.de/de/koblenz/fb4/icv/agmueller/lehre/ws2022/wivisi"><b>Wissenschaftliche Visualisierung und Simulation</b></a><br>
+        Lecture series at University Koblenz.<br>
+        Organisational work as well as giving two lectures on GPU-Programming
+    </div>
+</div>
 
 <div class="row">
     <div class="col-2 col-sm-1 date">
@@ -209,16 +231,16 @@ A python based visualization tool for particle and point cloud datasets. All set
     <div class="col-md-8">
         <div style="height:15pt"></div>
         <h2>Techical Skills</h2>
-        <b>Programming:</b> C/C++, Python, OpenGL, CUDA<br>
-        <b>Have also used:</b> Javascript, PHP, HTML/CSS, BASH, R, Lua<br>  
-        <b>Software:</b> LaTeX, Photoshop, Premiere, After Effects<br>
+        <b>Programming:</b> C/C++, OpenGL, CUDA, TypeScript, WebGL, C#<br>
+        <b>as well as:</b> JavaScript, HTML/CSS, Rust, BASH, Python<br>  
+        <b>Software:</b> LaTeX, Photoshop, Premiere, After Effects, Office tools<br>
         <b>Operating Systems:</b> GNU/Linux, Windows<br>    
     </div>
     <div class="col-md-4">
         <div style="height:15pt"></div>
         <h2>Languages</h2>
         <b>German:</b> native<br>
-        <b>Englisch:</b> fluent
+        <b>English:</b> fluent
     </div>
 </div>
 
@@ -226,6 +248,6 @@ A python based visualization tool for particle and point cloud datasets. All set
 <div style="height:15pt"></div>
 ## Hobbies and Interests
 
-Cooking, electronics, photography, reading, writing, games, art.
+Cooking, electronics, photography, crafting, games, art and sailing.
 
 
