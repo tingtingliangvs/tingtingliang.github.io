@@ -13,7 +13,7 @@ horizontal: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery/seagirl.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gallery/seagirl.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -22,7 +22,7 @@ horizontal: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery/howl.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gallery/howl.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,7 +31,7 @@ horizontal: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery/ailurus.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gallery/ailurus.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -40,7 +40,7 @@ horizontal: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/gallery/bluehair.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/gallery/bluehair.JPG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
