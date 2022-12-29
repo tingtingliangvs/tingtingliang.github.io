@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://scholar.google.com/citations?user=sEWK8i4AAAAJ&hl=zh-CN'>[Google Scholar]</a>. <a href='https://github.com/tingtingliangvs'>[GitHub]</a>.  <a href='https://tingtingliang.github.io/assets/pdf/ttliang_cv.pdf'>[CV]</a>. 
+subtitle: <a href='https://scholar.google.com/citations?user=sEWK8i4AAAAJ&hl=zh-CN'>[Google Scholar]</a>. <a href='https://github.com/tingtingliangvs'>[GitHub]</a>.  <a href='https://tingtingliangvs.github.io/assets/pdf/ttliang_cv.pdf'>[CV]</a>. 
 
 profile:
   align: right
