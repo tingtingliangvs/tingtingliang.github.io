@@ -78,7 +78,7 @@ However, one underlying assumption that people overlooked is, that as one needs 
     </div>
 </div>
 <div class="caption">
-    An example of a black car resulting in lower Lidar reflectance, causing 3D detection difficulties.
+    Current fusion approaches often rely heavily on LiDAR input, making them prone to failure when LiDAR data is unavailable.
 </div>
 
 We argue the ideal framework for LiDAR-camera fusion should be, that each model for a single modality should not fail regardless of the existence of the other modality, yet having both modalities will further boost the perception accuracy. 
@@ -93,7 +93,7 @@ To this end, we propose a surprisingly simple yet effective framework that disen
     </div>
 </div>
 <div class="caption">
-    An example of a black car resulting in lower Lidar reflectance, causing 3D detection difficulties.
+    Our method is able to detect objects even when LiDAR data is missing.
 </div>
 
 As our framework is a general approach, we can incorporate current single modality BEV models for camera and LiDAR into our framework.  We moderately adopt Lift-Splat-Shoot as our camera stream, which projects multi-view image features to the 3D ego-car coordinate features to generate the camera BEV feature. Similarly, for the LiDAR stream,  we select three popular models, two voxel-based ones and a pillar-based one to encode the LiDAR feature into the BEV space. 
@@ -134,8 +134,7 @@ On the nuScenes dataset, our simple framework shows great generalization ability
 <div class="caption">
     (a) We visualize the point clouds under the BEV perspective of two settings,  limited field-of-view (FOV) and LiDAR fails to receive object reflection points, where the orange box indicates the object points are dropped. 
 	Blue boxes are bounding boxes and red-circled boxes are false-positive predictions. 
-	(b) We show the predictions of the state-of-the-art method, TransFusion, and ours under three settings. Obviously, 
-	the current fusion approaches fail inevitably when the LiDAR input is missing, while our framework can leverage the camera stream to recover these objects.
+	(b) We show the predictions of the state-of-the-art method, TransFusion, and ours under three settings. Obviously, the current fusion approaches fail inevitably when the LiDAR input is missing, while our framework can leverage the camera stream to recover these objects.
 </div>
 
 ## Concurrent works
