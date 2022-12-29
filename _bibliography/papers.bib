@@ -3,81 +3,159 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@String{TIP   = "{IEEE Transactions on Image Processing (TIP)}"}
+@String{CVPR  = "{IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}"}
+@String{NIPS  = "{Neural Information Processing Systems (NeurIPS)}"}
+@String{AAAI  = "{Association for the Advancement of Artificial Intelligence (AAAI)}"}
+@inproceedings{liang2022bevfusion,
+  title={{BEVFusion: A Simple and Robust LiDAR-Camera Fusion Framework}},
+  author={Tingting Liang and Hongwei Xie and Kaicheng Yu and Zhongyu Xia and Zhiwei Lin and Yongtao Wang and Tao Tang and Bing Wang and Zhi Tang},
+  booktitle = NIPS,
+  year={2022},
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  preview={bevfusion.jpg},
+  web={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={https://arxiv.org/abs/2205.13790},
+  code={https://github.com/ADLab-AutoDrive/BEVFusion},
+  abstract={Fusing the camera and LiDAR information has become a de-facto standard for 3D object detection tasks. Current methods rely on point clouds from the LiDAR sensor as queries to leverage the feature from the image space. However, people discovered that this underlying assumption makes the current fusion framework infeasible to produce any prediction when there is a LiDAR malfunction, regardless of minor or major. This fundamentally limits the deployment capability to realistic autonomous driving scenarios. In contrast, we propose a surprisingly simple yet novel fusion framework, dubbed BEVFusion, whose camera stream does not depend on the input of LiDAR data, thus addressing the downside of previous methods. We empirically show that our framework surpasses the state-of-the-art methods under the normal training settings. Under the robustness training settings that simulate various LiDAR malfunctions, our framework significantly surpasses the state-of-the-art methods by 15.7% to 28.9% mAP. To the best of our knowledge, we are the first to handle realistic LiDAR malfunction and can be deployed to realistic scenarios without any post-processing procedure. },
+  blog={https://tingtingliang.github.io/blog/2022/bevfusion/}
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{DBLP:journals/tip/LiangCLWTCCL22,
+  author    = {Ting{-}Ting Liang and
+               Xiaojie Chu and
+               Yudong Liu and
+               Yongtao Wang and
+               Zhi Tang and
+               Wei Chu and
+               Jingdong Chen and
+               Haibin Ling},
+  title     = {CBNet: {A} Composite Backbone Network Architecture for Object Detection},
+  journal   = TIP,
+  volume    = {31},
+  pages     = {6893--6906},
+  year      = {2022},
+  url       = {https://doi.org/10.1109/TIP.2022.3216771},
+  doi       = {10.1109/TIP.2022.3216771},
+  timestamp = {Mon, 05 Dec 2022 13:33:25 +0100},
+  biburl    = {https://dblp.org/rec/journals/tip/LiangCLWTCCL22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  selected={true},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  preview={cbnetv2.jpg},
+  code={https://github.com/VDIGPKU/CBNetV2},
+  pdf={https://arxiv.org/abs/2107.00420},
+  abstract={Modern top-performing object detectors depend heavily on backbone networks, whose advances bring consistent performance gains through exploring more effective network structures.  In this paper, we propose a novel and flexible backbone framework, namely , to construct high-performance detectors using existing open-source pre-trained backbones under the pre-training fine-tuning paradigm.  In particular, CBNet architecture groups multiple identical backbones, which are connected through composite connections. Specifically, it integrates the high- and low-level features of multiple identical backbone networks and gradually expands the receptive field to more effectively perform object detection. We also propose a better training strategy with auxiliary supervision for CBNet-based detectors. CBNet has strong generalization capabilities for different backbones and head designs of the detector architecture. Without additional pre-training of the composite backbone, CBNet can be adapted to various backbones (i.e., CNN-based vs. Transformer-based) and head designs of most mainstream detectors (i.e., one-stage vs. two-stage, anchor-based vs. anchor-free-based). Experiments provide strong evidence that, compared with simply increasing the depth and width of the network, CBNet introduces a more efficient, effective, and resource-friendly way to build high-performance backbone networks. Particularly, our CB-Swin-L achieves 59.4% box AP and 51.6% mask AP on COCO test-dev under the single-model and single-scale testing protocol, which are significantly better than the state-of-the-art results (i.e., 57.7% box AP and 50.2% mask AP) achieved by Swin-L, while reducing the training time by 6x. With multi-scale testing, we push the current best single model result to a new record of 60.1% box AP and 52.3% mask AP without using extra training data. },
+  blog={https://tingtingliang.github.io/blog/2022/cbnetv2/}
+
+
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@inproceedings{DBLP:conf/cvpr/LiangWTHL21,
+  author    = {Tingting Liang and
+               Yongtao Wang and
+               Zhi Tang and
+               Guosheng Hu and
+               Haibin Ling},
+  title     = {{OPANAS:} One-Shot Path Aggregation Network Architecture Search for
+               Object Detection},
+  booktitle = CVPR,
+  pages     = {10195--10203},
+  publisher = {Computer Vision Foundation / {IEEE}},
+  year      = {2021},
+  url       = {https://openaccess.thecvf.com/content/CVPR2021/html/Liang\_OPANAS\_One-Shot\_Path\_Aggregation\_Network\_Architecture\_Search\_for\_Object\_Detection\_CVPR\_2021\_paper.html},
+  doi       = {10.1109/CVPR46437.2021.01006},
+  timestamp = {Mon, 18 Jul 2022 16:47:41 +0200},
+  biburl    = {https://dblp.org/rec/conf/cvpr/LiangWTHL21.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  selected={true},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+      preview={opanas.jpg},
+      pdf={https://arxiv.org/abs/2103.04507},
+      code={https://github.com/VDIGPKU/OPANAS},
+      abstract={Recently, neural architecture search (NAS) has been exploited to design feature pyramid networks (FPNs) and achieved promising results for visual object detection. Encouraged by the success, we propose a novel One-Shot Path Aggregation Network Architecture Search (OPANAS) algorithm, which significantly improves both searching efficiency and detection accuracy. Specifically, we first introduce six heterogeneous information paths to build our search space, namely top-down, bottom-up, fusing-splitting, scale-equalizing, skip-connect and none. Second, we propose a novel search space of FPNs, in which each FPN candidate is represented by a densely-connected directed acyclic graph (each node is a feature pyramid and each edge is one of the six heterogeneous information paths). Third, we propose an efficient one-shot search method to find the optimal path aggregation architecture, that is, we first train a super-net and then find the optimal candidate with an evolutionary algorithm. Experimental results demonstrate the efficacy of the proposed OPANAS for object detection: (1) OPANAS is more efficient than state-of-the-art methods (i.e., NAS-FPN and Auto-FPN), at significantly smaller searching cost (i.e., only 4 GPU days on MS-COCO); (2) the optimal architecture found by OPANAS significantly improves main-stream detectors including RetinaNet, Faster R-CNN and Cascade R-CNN, by 2.3~3.2 % mAP comparing to their FPN counterparts; and (3) a new state-of-the-art accuracy-speed trade-off (52.2 % mAP at 7.6 FPS) at smaller training costs than comparable state-of-the-arts. },
+  blog={https://tingtingliang.github.io/blog/2022/opanas/}
+
+}
+
+@inproceedings{DBLP:conf/acmturc/LiangZWSZWT19,
+  author    = {Tingting Liang and
+               Qijie Zhao and
+               Zhuoying Wang and
+               Kaiyu Shan and
+               Huan Zhang and
+               Yongtao Wang and
+               Zhi Tang},
+  title     = {Pyramidal region context module for semantic segmentation},
+  booktitle = {Proceedings of the {ACM} Turing Celebration Conference - China, {ACM}
+               {TUR-C} 2019, Chengdu, China, May 17-19, 2019},
+  pages     = {102:1--102:6},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3321408.3322635},
+  doi       = {10.1145/3321408.3322635},
+  timestamp = {Thu, 11 Mar 2021 17:04:51 +0100},
+  biburl    = {https://dblp.org/rec/conf/acmturc/LiangZWSZWT19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf={https://dl.acm.org/doi/abs/10.1145/3321408.3322635},
+  bibtex_show={true},
+  preview={prcm.jpg},
+}
+
+@inproceedings{DBLP:conf/prcv/LiangSGLT18,
+  author    = {Ting{-}Ting Liang and
+               Mengyan Sun and
+               Liangcai Gao and
+               Jing{-}Jing Lu and
+               Satoshi Tsutsui},
+  editor    = {Jian{-}Huang Lai and
+               Cheng{-}Lin Liu and
+               Xilin Chen and
+               Jie Zhou and
+               Tieniu Tan and
+               Nanning Zheng and
+               Hongbin Zha},
+  title     = {APNet: Semantic Segmentation for Pelvic {MR} Image},
+  booktitle = {Pattern Recognition and Computer Vision - First Chinese Conference,
+               {PRCV} 2018, Guangzhou, China, November 23-26, 2018, Proceedings,
+               Part {II}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11257},
+  pages     = {259--272},
+  publisher = {Springer},
+  year      = {2018},
+  url       = {https://doi.org/10.1007/978-3-030-03335-4\_23},
+  doi       = {10.1007/978-3-030-03335-4\_23},
+  timestamp = {Fri, 03 Dec 2021 12:20:53 +0100},
+  biburl    = {https://dblp.org/rec/conf/prcv/LiangSGLT18.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf={https://link.springer.com/chapter/10.1007/978-3-030-03335-4_23},
+  bibtex_show={true},
+  preview={apnet.jpg},
+}
+
+@inproceedings{DBLP:conf/aaai/LiuWWLZTL20,
+  author    = {Yudong Liu and
+               Yongtao Wang and
+               Siwei Wang and
+               Tingting Liang and
+               Qijie Zhao and
+               Zhi Tang and
+               Haibin Ling},
+  title     = {CBNet: {A} Novel Composite Backbone Network Architecture for Object
+               Detection},
+  booktitle = AAAI,
+  pages     = {11653--11660},
+  publisher = {{AAAI} Press},
+  year      = {2020},
+  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/6834},
+  timestamp = {Mon, 07 Mar 2022 16:57:58 +0100},
+  biburl    = {https://dblp.org/rec/conf/aaai/LiuWWLZTL20.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pdf={https://arxiv.org/abs/1909.03625},
+  code={https://github.com/VDIGPKU/CBNet_caffe},
+  bibtex_show={true},
+  preview={cbnet.jpg},
 }

@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://scholar.google.com/citations?user=sEWK8i4AAAAJ&hl=zh-CN'>[Google Scholar]</a>. <a href='https://github.com/tingtingliangvs'>[GitHub]</a>.  <a href='https://tingtingliang.github.io/assets/pdf/ttliang_cv.pdf'>[CV]</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # address: >
+  #   <p>tingtingliang AT pku.edu.cn</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Ph.D. student at <a href='https://english.pku.edu.cn/' >Peking University</a> , advised by <a href='https://www.icst.pku.edu.cn/english/people/tt/1297391.htm' >Prof. Zhi Tang</a> and <a href='https://www.icst.pku.edu.cn/xztd/1298696.htm' >Prof. Yongtao Wang</a>.  <mark>I plan to finish my PhD in july 2023 and am looking for postdoc positions!<mark>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**Research**: I am excited about developing deep models with hand-designed and automated search methods to solve computer
+vision challenges. Currently, my research focuses on learning 2D and 3D representations of objects and scenes
+towards improving accuracy and robustness of perception tasks in complex environments. Outside my research, I love drawing, swimming, and reading literature.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Bio**: Tingting received the B.E. degree from the School of Computer Science, Beijing University of Posts and Telecommunications, China, in 2018. She is currently working toward a Ph.D. degree with the Wangxuan Institute of Computer Technology, Peking University, China. 
+
