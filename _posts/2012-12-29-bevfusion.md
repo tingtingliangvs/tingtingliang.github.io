@@ -7,11 +7,11 @@ date: 2022-12-29
 
 authors:
   - name: Tingting Liang
-    url: ""
+    url: "https://tingtingliangvs.github.io"
     affiliations:
       name: Peking University
 
-bibliography: 2018-12-22-distill.bib
+# bibliography: 2018-12-22-distill.bib
 
 # Optionally, you can add a table of contents to your post.
 # NOTES:
@@ -70,7 +70,7 @@ LiDAR and camera technology are essential for enabling self-driving cars to navi
 In the early stage of perception systems, people design separate deep models for each sensor and fuse information via post-processing approaches. This method is limited by the loss of intermediate information. Recently, people have designed LiDAR-camera fusion deep networks to better leverage information from both modalities. Specifically, the majority of works can be summarized as follow: i) given one or a few points of the LiDAR point cloud, LiDAR to world transformation matrix and the essential matrix (camera to world); ii) people transform the LiDAR points or proposals into camera world and use them as queries, to select corresponding image features. 
 This line of work constitutes the state-of-the-art methods of 3D perception.
 
-However, one underlying assumption that people overlooked is, that as one needs to generate image queries from LiDAR points, the current LiDAR-camera fusion methods intrinsically depend on the raw point cloud of the LiDAR sensor. In the realistic world, people discover that if the LiDAR sensor input is missing, for example, LiDAR points reflection rate is low due to object texture, a system glitch of internal data transfer, or even the field of view of the LiDAR sensor cannot reach 360 degrees due to hardware limitations, an current fusion methods fail to produce meaningful results. This fundamentally hinders the applicability of this line of work in the realistic autonomous driving system. 
+However, one underlying assumption that people overlooked is, that as one needs to generate image queries from LiDAR points, the current LiDAR-camera fusion methods intrinsically depend on the raw point cloud of the LiDAR sensor. In the realistic world, people discover that if the LiDAR sensor input is missing, for example, LiDAR points reflection rate is low due to object texture, a system glitch of internal data transfer, or even the field of view of the LiDAR sensor cannot reach 360 degrees due to hardware limitations, and current fusion methods fail to produce meaningful results. This fundamentally hinders the applicability of this line of work in the realistic autonomous driving system. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,7 +85,7 @@ We argue the ideal framework for LiDAR-camera fusion should be, that each model 
 
 ## Our method
 
-To this end, we propose a surprisingly simple yet effective framework that disentangles the LiDAR-camera fusion dependency of the current methods, dubbed BEVFusion. Specifically,  our framework has two independent streams that encode the raw inputs from the camera and LiDAR sensors into features within the same BEV space (Why BEV? People have discovered that bird's eye view (BEV) has been an de-facto standard for autonomous driving scenarios as, generally speaking, car cannot fly). We then design a simple module to fuse these BEV-level features after these two streams, so that the final feature can be passed into modern task prediction head architecture.
+To this end, we propose a surprisingly simple yet effective framework that disentangles the LiDAR-camera fusion dependency of the current methods, dubbed BEVFusion. Specifically, our framework has two independent streams that encode the raw inputs from the camera and LiDAR sensors into features within the same BEV space (Why BEV? People have discovered that bird's eye view (BEV) has been an de-facto standard for autonomous driving scenarios as, generally speaking, car cannot fly). We then design a simple module to fuse these BEV-level features after these two streams, so that the final feature can be passed into modern task prediction head architecture.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -96,7 +96,7 @@ To this end, we propose a surprisingly simple yet effective framework that disen
     Our method is able to detect objects even when LiDAR data is missing.
 </div>
 
-As our framework is a general approach, we can incorporate current single modality BEV models for camera and LiDAR into our framework.  We moderately adopt Lift-Splat-Shoot as our camera stream, which projects multi-view image features to the 3D ego-car coordinate features to generate the camera BEV feature. Similarly, for the LiDAR stream,  we select three popular models, two voxel-based ones and a pillar-based one to encode the LiDAR feature into the BEV space. 
+As our framework is a general approach, we can incorporate current single modality BEV models for camera and LiDAR into our framework. We moderately adopt Lift-Splat-Shoot as our camera stream, which projects multi-view image features to the 3D ego-car coordinate features to generate the camera BEV feature. Similarly, for the LiDAR stream, we select three popular models, two voxel-based ones and a pillar-based one to encode the LiDAR feature into the BEV space. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -124,7 +124,7 @@ Note that MathJax 3 is [a major re-write of MathJax](https://docs.mathjax.org/en
 
 ## Results
 
-On the nuScenes dataset, our simple framework shows great generalization ability. Following the same training settings, BEVFusion improves PointPillars and CenterPoint by 18.4% and 7.1% in mean average precision (mAP) respectively, and achieves a superior performance of 69.2% mAP comparing to 68.9% mAP of TransFusion, which is considered as state-of-the-art. Under the robust setting by randomly dropping the LiDAR points inside object bounding boxes with a probability of 0.5, we propose a novel augmentation technique and show that our framework surpasses all baselines significantly by a margin of 15.7%~28.9%  mAP and demonstrate the robustness of our approach. 
+On the nuScenes dataset, our simple framework shows great generalization ability. Following the same training settings, BEVFusion improves PointPillars and CenterPoint by 18.4% and 7.1% in mean average precision (mAP) respectively, and achieves a superior performance of 69.2% mAP comparing to 68.9% mAP of TransFusion, which is considered as state-of-the-art. Under the robust setting by randomly dropping the LiDAR points inside object bounding boxes with a probability of 0.5, we propose a novel augmentation technique and show that our framework surpasses all baselines significantly by a margin of 15.7%~28.9% mAP and demonstrate the robustness of our approach. 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -132,7 +132,7 @@ On the nuScenes dataset, our simple framework shows great generalization ability
     </div>
 </div>
 <div class="caption">
-    (a) We visualize the point clouds under the BEV perspective of two settings,  limited field-of-view (FOV) and LiDAR fails to receive object reflection points, where the orange box indicates the object points are dropped. 
+    (a) We visualize the point clouds under the BEV perspective of two settings, limited field-of-view (FOV) and LiDAR fails to receive object reflection points, where the orange box indicates the object points are dropped. 
 	Blue boxes are bounding boxes and red-circled boxes are false-positive predictions. 
 	(b) We show the predictions of the state-of-the-art method, TransFusion, and ours under three settings. Obviously, the current fusion approaches fail inevitably when the LiDAR input is missing, while our framework can leverage the camera stream to recover these objects.
 </div>
@@ -140,7 +140,10 @@ On the nuScenes dataset, our simple framework shows great generalization ability
 ## Concurrent works
 Some concurrent works also focus on fusing LiDAR-camera in 3D space:
 
-BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation. [MIT](https://bevfusion.mit.edu/)
+BEVFusion: Multi-Task Multi-Sensor Fusion with Unified Bird's-Eye View Representation. [MIT HAN Lab](https://bevfusion.mit.edu/)
+
+FUTR3D: A Unified Sensor Fusion Framework for 3D Detection. [Tsinghua MARS Lab](https://tsinghua-mars-lab.github.io/futr3d/)
+
 
 
 ## Further Information
