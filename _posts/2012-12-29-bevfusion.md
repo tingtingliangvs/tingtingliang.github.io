@@ -28,6 +28,7 @@ toc:
   - name: How to fuse information from multi-sensors?
   - name: Our method
   - name: Results
+  - name: Overview Video
   - name: Concurrent works
   - name: Further Information
 
@@ -135,6 +136,17 @@ On the nuScenes dataset, our simple framework shows great generalization ability
     (a) We visualize the point clouds under the BEV perspective of two settings, limited field-of-view (FOV) and LiDAR fails to receive object reflection points, where the orange box indicates the object points are dropped. 
 	Blue boxes are bounding boxes and red-circled boxes are false-positive predictions. 
 	(b) We show the predictions of the state-of-the-art method, TransFusion, and ours under three settings. Obviously, the current fusion approaches fail inevitably when the LiDAR input is missing, while our framework can leverage the camera stream to recover these objects.
+</div>
+
+## Overview Video
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://neurips.cc/virtual/2022/poster/55002" title="YouTube">{% include figure.html path="assets/img/bevfusion/video.jpg" class="img-fluid rounded z-depth-1" %}</a>
+    </div>
+</div>
+<div class="caption">
+    Click to watch video.
 </div>
 
 ## Concurrent works
