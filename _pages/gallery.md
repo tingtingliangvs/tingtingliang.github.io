@@ -2,7 +2,7 @@
 layout: page
 title: my gallery
 permalink: /gallery/
-description: I've loved drawing since I was a kid, but then I gave up drawing lessons for various reasons. Now, I learn to draw on my iPad by watching online videos in my spare time.
+description: I've loved painting since I was a kid, but then I gave up drawing lessons for various reasons. Now, I learn to paint on iPad by watching online videos in my spare time.
 nav: True
 nav_order: 4
 # display_categories: [work, fun]
@@ -26,7 +26,7 @@ horizontal: false
     </div>
 </div>
 <div class="caption">
-    Howl's moving castle. Love the green lawn, blue sky, and white clouds.
+    Howl's moving castle. I love the green lawn, blue sky, and white clouds.
 </div>
 
 <div class="row mt-3">
@@ -44,5 +44,5 @@ horizontal: false
     </div>
 </div>
 <div class="caption">
-    Blue hair girl. Head up portrait practice.
+    Blue hair girl. A head up portrait practice.
 </div>

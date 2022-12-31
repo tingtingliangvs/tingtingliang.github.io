@@ -20,7 +20,7 @@ I am a Ph.D. student at <a href='https://english.pku.edu.cn/' >Peking University
 
 **Research**: I am excited about developing deep models with hand-designed and automated search methods to solve computer
 vision challenges. Currently, my research focuses on learning 2D and 3D representations of objects and scenes
-towards improving accuracy and robustness of perception tasks in complex environments. Outside my research, I love drawing, swimming, and reading literature.
+towards improving accuracy and robustness of perception tasks in complex environments. Outside my research, I love <a href='https://tingtingliangvs.github.io/gallery/' >painting</a>, swimming, and reading literature.
 
 **Bio**: Tingting received the B.E. degree from the School of Computer Science, Beijing University of Posts and Telecommunications, China, in 2018. She is currently working toward a Ph.D. degree with the Wangxuan Institute of Computer Technology, Peking University, China. 
 
