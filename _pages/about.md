@@ -17,7 +17,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Ph.D. student at <a href='https://english.pku.edu.cn/' >Peking University</a> , advised by <a href='https://www.icst.pku.edu.cn/english/people/tt/1297391.htm' >Prof. Zhi Tang</a> and <a href='https://www.icst.pku.edu.cn/xztd/1298696.htm' >Prof. Yongtao Wang</a>.  
-<mark>I plan to finish my PhD in july 2023 and am looking for postdoc positions!<mark>
+<!-- <mark>I plan to finish my PhD in july 2023 and am looking for postdoc positions!<mark> -->
 
 **Research**: I am excited about developing deep models with hand-designed and automated search methods to solve computer
 vision challenges. Currently, my research focuses on learning 2D and 3D representations of objects and scenes
